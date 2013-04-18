@@ -2,4 +2,4 @@ Harvey Balls are commonly used in comparison tables to indicate the degree to wh
 
 Refer the source of demo.html for usage.
 
-- Author: Manoj (manojmani.com)
+- Author: Manoj (manojmani.com): This is my first project on github. Do let me know if I'm off course anywhere.
