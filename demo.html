@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS based Harvey Balls</title>
+		<link rel="stylesheet" type="text/css" href="css/harvey.min.css">
+		<style type="text/css">
+		body {
+			font-family: sans-serif;
+			max-width: 650px;
+			margin: auto;
+		}
+		</style>
+	</head>
+	<body>
+		<h1>CSS based Harvey Balls - Demo</h1>
+		<div id="content">
+			<p>
+				Harvey Balls are commonly used in comparison tables to indicate the degree to which a particular item meets a particular criterion. They have been traditionally used the digital world as SVG and Custom Font formats. Refer the Wikipedia Article on <a href="http://en.wikipedia.org/wiki/Harvey_Balls" target="_blank">Harvey Balls</a> to know more. For sheer geekiness sake, I implemented them using pure CSS.
+			</p>
+
+			<!-- Large Circle -->
+			<!-- Astronomy: (Full Moon) -->
+			<div class="harvey"></div>
+
+			<!-- Circle with upper right quadrant black -->
+			<!-- Meteorology: (Almost clear sky or Somewhat overcast) -->
+			<div class="harvey"><div class="upper-right"></div></div>
+
+			<!-- Circle with right half black -->
+			<!-- Astronomy: (Last Quarter Moon), Electronics: (On/Off Switch, Television Contrast) -->
+			<div class="harvey half-right"></div>
+
+			<!-- Circle with all but upper left quadrant black -->
+			<!-- Meteorology: (Broken Clouds) -->
+			<div class="harvey black"><div class="three-quarters"></div></div>
+
+			<!-- Black Circle -->
+			<!-- Astronomy: (New Moon) -->
+			<div class="harvey black"></div>
+
+			<div class="clearfix"></div>
+
+			<!-- Lateral Inverse of above circles follows -->
+			<div class="harvey black"></div>
+
+			<div class="harvey black"><div class="upper-right white"></div></div>
+
+			<div class="harvey half-left"></div>
+
+			<div class="harvey"><div class="upper-left"></div></div>
+
+			<div class="harvey"></div>
+
+			<div class="clearfix"></div>
+
+			<!-- Circle with upper half black -->
+			<div class="harvey half-top"></div>
+
+			<!-- Circle with lower half black -->
+			<!-- Cartography: (Spring or Well), Meteorology: (Partly overcast) -->
+			<div class="harvey half-bottom"></div>
+
+			<div class="clearfix"></div>
+		</div>
+	</body>
+</html>
